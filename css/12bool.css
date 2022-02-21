@@ -6,6 +6,11 @@
     scroll-behavior: smooth;
 }
 
+/***** safety *****/
+[class*="col-"] {
+    flex: 0 0 auto;
+}
+
 /***** container *****/
 .container {
     width: 1170px;
@@ -123,9 +128,4 @@
 
 .col-offset-11 {
     margin-left: calc((100% / 12) * 11);
-}
-
-/***** safety *****/
-[class*="col-"] {
-    flex: 1 1 auto;
 }

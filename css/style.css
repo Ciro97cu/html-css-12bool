@@ -21,6 +21,7 @@ body {
 h1 {
     color: black;
     font-size: 20px;
+    margin-top: 10PX;
 }
 /* padding */
 .padding-nested-item {
@@ -55,9 +56,31 @@ h1 {
     height: 50px;
 }
 
+.h-100 {
+    height: 100px;
+}
+
 /* justify and alignment for text */
 .txt {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+/* alignment */
+.r-center {
+    justify-content: center;
+}
+
+.r-end {
+    justify-content: flex-end;
+}
+
+/* justify */
+.a-center {
+    align-self: center;
+}
+
+.a-bottom {
+    align-self: flex-end;
 }
