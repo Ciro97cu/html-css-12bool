@@ -7,6 +7,10 @@
     background-color: #00e165;
 }
 
+.container {
+    margin-bottom: 50px;
+}
+
 /* color text */
 body {
     color: white;
