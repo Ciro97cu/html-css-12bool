@@ -1,0 +1,52 @@
+/***** rules background-color *****/
+.bgc-azure {
+    background-color: #006cfa;
+}
+
+.bgc-green {
+    background-color: #00e165;
+}
+
+/* color text */
+body {
+    color: white;
+    font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+    color: black;
+}
+/* padding */
+.padding-nested-item {
+    padding: 10px;
+}
+
+/* border */
+.col-1, .col-2,
+.col-3, .col-4, 
+.col-5, .col-6,
+.col-7, .col-8, 
+.col-9, .col-10, 
+.col-11, .col-12 {
+    border: 1px solid white;
+}
+
+.border-nested {
+    border: 1px solid #006cfa;
+}
+
+/* height */
+.h-40 {
+    height: 40px;
+}
+
+.h-50 {
+    height: 50px;
+}
+
+/* justify and alignment for text */
+.txt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
