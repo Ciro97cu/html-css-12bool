@@ -7,10 +7,6 @@
     background-color: #00e165;
 }
 
-.container {
-    margin-bottom: 50px;
-}
-
 /* color text */
 body {
     color: white;
@@ -23,6 +19,13 @@ h1 {
     font-size: 20px;
     margin-top: 10PX;
 }
+
+h2 {
+    color: black;
+    font-size: 17px;
+    margin-top: 5PX;
+}
+
 /* padding */
 .padding-nested-item {
     padding: 10px;
@@ -83,4 +86,12 @@ h1 {
 
 .a-bottom {
     align-self: flex-end;
+}
+
+.sp-around {
+    justify-content: space-around;
+}
+
+.sp-between {
+    justify-content: space-between;
 }
