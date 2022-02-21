@@ -11,14 +11,21 @@
 body {
     color: white;
     font-family: "Montserrat", sans-serif;
+    font-size: 13px;
 }
 
 h1 {
     color: black;
+    font-size: 20px;
 }
 /* padding */
 .padding-nested-item {
     padding: 10px;
+}
+
+/* margin between rows */
+.margin-b {
+    margin-bottom: 20px;
 }
 
 /* border */
